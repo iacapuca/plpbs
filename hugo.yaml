@@ -1,5 +1,7 @@
 # Hugo configuration file
-title: My Site
+title: Pedro Luiz
+locale: pt-BR
+defaultContentLanguage: pt-br
 
 # import hextra as module
 module:
@@ -18,29 +20,23 @@ markup:
 
 menu:
   main:
-    - name: Docs
-      pageRef: /docs
-      weight: 1
-    - name: About
+    - name: Sobre
       pageRef: /about
+      weight: 1
+    - name: RSS
       weight: 2
-    - name: Contact ↗
-      url: "https://github.com/imfing"
-      weight: 3
+      url: "/blog/index.xml"
+      params:
+        icon: rss
     - name: Search
-      weight: 4
+      weight: 3
       params:
         type: search
     - name: GitHub
-      weight: 5
-      url: "https://github.com/imfing/hextra-starter-template"
+      weight: 4
+      url: "https://github.com/iacapuca"
       params:
         icon: github
-    - name: Twitter
-      weight: 6
-      url: "https://twitter.com/"
-      params:
-        icon: x-twitter
 
 params:
   navbar:
@@ -51,6 +47,15 @@ params:
     displayCopyright: false
     displayPoweredBy: true
 
-  editURL:
-    enable: true
-    base: "https://github.com/imfing/hextra-starter-template/edit/main/content"
+  theme:
+    default: system
+    displayToggle: true
+
+  blog:
+    list:
+      displayTags: true
+      sortBy: date
+      sortOrder: desc
+      pagerSize: 10
+    article:
+      displayPagination: true

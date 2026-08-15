@@ -1,0 +1,12 @@
+/* Accent color override — violet, close to Tailwind violet-600/500 */
+:root {
+  --primary-hue: 262deg;
+  --primary-saturation: 83%;
+  --primary-lightness: 58%;
+}
+
+.dark {
+  --primary-hue: 262deg;
+  --primary-saturation: 83%;
+  --primary-lightness: 65%;
+}
