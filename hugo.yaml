@@ -1,4 +1,5 @@
 # Hugo configuration file
+baseURL: https://plpbs.plpbs.workers.dev/
 title: Pedro Luiz
 locale: pt-BR
 defaultContentLanguage: pt-br
