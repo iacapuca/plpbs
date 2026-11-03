@@ -19,7 +19,7 @@ Parte 4 da série sobre meu homelab em NixOS. Antes: [a estrutura do repo](/blog
 
 ## Caddy com o plugin da Cloudflare
 
-Já escrevi sobre [por que uso DNS-01 via Cloudflare](/blog/2026/07/28/mesmo-dominio-local-e-remoto-com-tailscale/): nada aqui é alcançável publicamente na porta 80, então HTTP-01 não serve. O Caddy do nixpkgs não vem com o provedor da Cloudflare, mas o pacote tem uma função pra compilar com plugins:
+Os certificados saem via desafio DNS-01 na Cloudflare: nada aqui é alcançável publicamente na porta 80, então HTTP-01 não serve. O Caddy do nixpkgs não vem com o provedor da Cloudflare, mas o pacote tem uma função pra compilar com plugins:
 
 ```nix {filename="hosts/yggdrasil/caddy.nix"}
 { pkgs, lib, config, ... }:
