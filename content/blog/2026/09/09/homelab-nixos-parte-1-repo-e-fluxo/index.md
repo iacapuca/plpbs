@@ -1,7 +1,6 @@
 ---
 title: "Homelab em NixOS, parte 1: como aprendi a parar de me preocupar e amar o Nix"
 date: 2026-09-09T10:00:00-03:00
-draft: true
 tags:
   - Homelab
   - NixOS

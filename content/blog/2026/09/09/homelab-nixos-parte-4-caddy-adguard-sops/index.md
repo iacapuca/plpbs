@@ -1,7 +1,6 @@
 ---
 title: "Homelab em NixOS, parte 4: Caddy, AdGuard e segredos com sops-nix"
 date: 2026-09-09T13:00:00-03:00
-draft: true
 tags:
   - Homelab
   - NixOS

@@ -1,7 +1,6 @@
 ---
 title: "Homelab em NixOS, parte 3: yggdrasil, Home Assistant numa VM e a VLAN IoT com systemd-networkd"
 date: 2026-09-09T12:00:00-03:00
-draft: true
 tags:
   - Homelab
   - NixOS

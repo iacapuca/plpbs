@@ -1,7 +1,6 @@
 ---
 title: "Homelab em NixOS, parte 2: bifrost, a stack de mídia sem containers"
 date: 2026-09-09T11:00:00-03:00
-draft: true
 tags:
   - Homelab
   - NixOS
